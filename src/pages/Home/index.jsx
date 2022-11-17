@@ -10,7 +10,7 @@ export default function Home({modal}){
     function handleNewApplication(event){
         event.preventDefault();
 
-        navigate('/home/application');
+        navigate('/home/aplication');
     }
 
     return(

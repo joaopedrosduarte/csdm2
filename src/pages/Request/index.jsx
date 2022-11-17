@@ -6,6 +6,10 @@ import { useNavigate } from 'react-router-dom';
 export default function Request(){
     const navigate = useNavigate();
 
+    function handleBackPage(){
+        navigate('/home/aplication')
+    }
+
     function handleNewApplication(){
         console.log('eae');
 
@@ -17,7 +21,7 @@ export default function Request(){
             <Sidebar />
             <div className={styles.content}>
                 <div>
-                    <button className={styles.returnButton}>{'<'}</button>
+                    <button className={styles.returnButton} onClick={handleBackPage}>{'<'}</button>
                 </div>
                 <div className={styles.mainContent}>
                     <div className={styles.divMainContent}>

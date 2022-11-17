@@ -10,7 +10,7 @@ export function Router() {
         <Routes>
             <Route path="/" element={<Login />} />
             <Route path="/home" element={<Home />} />
-            <Route path="/home/application" element={<Application/>} />
+            <Route path="/home/aplication" element={<Application/>} />
             <Route path="/home/aplication/new_request" element={<Request />} />
             <Route path="/home/aplication/doing_request" element={<FinalOrder />} />
         </Routes>

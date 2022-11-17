@@ -1,15 +1,22 @@
 import styles from './application.module.css'
 import Sidebar from '../../components/Sidebar/index';
 import Provider from '../../components/Provider/index';
+import { useNavigate } from 'react-router-dom';
 
 export default function Application() {
+    const navigate = useNavigate();
+
+    function handleBackPage(){
+        navigate('/home')
+    }
+
     return (
         <div className={styles.wrapper}>
             <Sidebar />
             <div className={styles.content}>
                 <div>
                     <div>
-                        <button className={styles.returnButton}>{'<'}</button>
+                        <button className={styles.returnButton} onClick={handleBackPage}>{'<'}</button>
                         <h1>Requerimento</h1>
                     </div>
                     <div className={styles.filtros}>
