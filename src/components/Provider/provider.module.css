@@ -1,0 +1,22 @@
+.wrapper {
+    margin: 28px;
+    padding: 12px 18px;
+    background-color: white;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.buttonDiv {
+    display: flex;
+    justify-content: end;
+    margin-top: 4px;
+}
+
+.buttonUI {
+    background-color: #6750a4;
+    padding: 8px 19.5px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+}

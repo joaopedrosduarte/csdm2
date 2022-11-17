@@ -1,0 +1,40 @@
+.wrapper {
+    display: flex;
+    flex: 1;
+    height: 100%;
+    color: black;
+}
+
+.content {
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.orders {
+    margin-top: 24px;
+    display: flex;
+    gap: 16px;
+}
+
+.buttonUI {
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+}
+
+.buttonUI button {
+    gap: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 14px;
+    margin: 16px;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    background-color: #875FC9;
+    padding: 10px 20px;
+}
